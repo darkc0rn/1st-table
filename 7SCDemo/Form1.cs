@@ -321,6 +321,13 @@ namespace _7SC34Demo
 
         private void button5_Click(object sender, EventArgs e)      //Return to origin
         {
+            string HomeZ;
+            double zStep;
+            zStep = (Convert.ToDouble(textBox4.Text) * 200);
+            if (zStep > 300)
+                zStep = 300;
+            HomeZ = "+" + zStep.ToString();
+
             button7.Focus();
             StrReceiver = "";
             BlnBusy = true;
@@ -348,6 +355,35 @@ namespace _7SC34Demo
             timer1.Enabled = false;
             BlnBusy = false;
             button6_Click(sender, e);
+
+            button7.Focus();
+            StrReceiver = "";
+            BlnBusy = true;
+            BlnSet = true;
+            SendCommand("HZ0\r");   //Home Z axis
+
+            textBox9.Text = "...... ";
+            timer1.Interval = 310 - Convert.ToInt32(sSpeed);
+            timer1.Enabled = true;
+            Delay(1000000);
+            timer1.Enabled = false;
+            BlnBusy = false;
+            button6_Click(sender, e);
+
+            button7.Focus();
+            StrReceiver = "";
+            BlnBusy = true;
+            BlnSet = true;
+            SendCommand("Z"+ HomeZ +"\r");   //Home Z axis
+
+            textBox9.Text = "...... ";
+            timer1.Interval = 310 - Convert.ToInt32(sSpeed);
+            timer1.Enabled = true;
+            Delay(1000000);
+            timer1.Enabled = false;
+            BlnBusy = false;
+            button6_Click(sender, e);
+
         }
 
         private void button7_Click(object sender, EventArgs e)      //Stop moving
