@@ -1,0 +1,10 @@
+E:\运动控制器(中英文版)\7SC34系列新版本\7SC34Demo\7SC34Demo\bin\Debug\7SC34Demo.exe
+E:\运动控制器(中英文版)\7SC34系列新版本\7SC34Demo\7SC34Demo\bin\Debug\7SC34Demo.pdb
+E:\运动控制器(中英文版)\7SC34系列新版本\7SC34Demo\7SC34Demo\obj\x86\Debug\_7SC34Demo.Form1.resources
+E:\运动控制器(中英文版)\7SC34系列新版本\7SC34Demo\7SC34Demo\obj\x86\Debug\_7SC34Demo.Properties.Resources.resources
+E:\运动控制器(中英文版)\7SC34系列新版本\7SC34Demo\7SC34Demo\obj\x86\Debug\7SC34Demo.csproj.GenerateResource.Cache
+E:\运动控制器(中英文版)\7SC34系列新版本\7SC34Demo\7SC34Demo\obj\x86\Debug\7SC34Demo.exe
+E:\运动控制器(中英文版)\7SC34系列新版本\7SC34Demo\7SC34Demo\obj\x86\Debug\7SC34Demo.pdb
+E:\运动控制器(中英文版)\7SC34系列新版本\7SC34Demo\7SC34Demo\obj\x86\Debug\7SC34Demo.csprojAssemblyReference.cache
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SC34Demo\obj\x86\Debug\7SC34Demo.exe
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SC34Demo\obj\x86\Debug\7SC34Demo.pdb

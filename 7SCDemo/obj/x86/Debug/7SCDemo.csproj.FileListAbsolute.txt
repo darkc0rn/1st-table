@@ -1,0 +1,33 @@
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SC34Demo\obj\x86\Debug\_7SC34Demo.Form1.resources
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SC34Demo\obj\x86\Debug\7SCDemo.csproj.GenerateResource.Cache
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SC34Demo\bin\Debug\7SCDemo.exe
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SC34Demo\bin\Debug\7SCDemo.pdb
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SC34Demo\obj\x86\Debug\_7SCDemo.Properties.Resources.resources
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SC34Demo\obj\x86\Debug\7SCDemo.exe
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SC34Demo\obj\x86\Debug\7SCDemo.pdb
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SCDemo\obj\x86\Debug\7SCDemo.exe
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SCDemo\obj\x86\Debug\7SCDemo.pdb
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SCDemo\bin\Debug\7SCDemo.exe
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SCDemo\bin\Debug\7SCDemo.pdb
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SCDemo\obj\x86\Debug\7SCDemo.csprojResolveAssemblyReference.cache
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SCDemo\obj\x86\Debug\_7SC34Demo.Form1.resources
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SCDemo\obj\x86\Debug\_7SCDemo.Properties.Resources.resources
+E:\运动控制器(中英文版)\7SC34系列新版本\7SCDemo\7SCDemo\obj\x86\Debug\7SCDemo.csproj.GenerateResource.Cache
+C:\Users\ilya\Downloads\C Sharp Demo\C Sharp Demo\7SCDemo\bin\Debug\7SCDemo.exe
+C:\Users\ilya\Downloads\C Sharp Demo\C Sharp Demo\7SCDemo\bin\Debug\7SCDemo.pdb
+C:\Users\ilya\Downloads\C Sharp Demo\C Sharp Demo\7SCDemo\obj\x86\Debug\7SCDemo.csprojAssemblyReference.cache
+C:\Users\ilya\Downloads\C Sharp Demo\C Sharp Demo\7SCDemo\obj\x86\Debug\_7SC34Demo.Form1.resources
+C:\Users\ilya\Downloads\C Sharp Demo\C Sharp Demo\7SCDemo\obj\x86\Debug\_7SCDemo.Properties.Resources.resources
+C:\Users\ilya\Downloads\C Sharp Demo\C Sharp Demo\7SCDemo\obj\x86\Debug\7SCDemo.csproj.GenerateResource.cache
+C:\Users\ilya\Downloads\C Sharp Demo\C Sharp Demo\7SCDemo\obj\x86\Debug\7SCDemo.csproj.CoreCompileInputs.cache
+C:\Users\ilya\Downloads\C Sharp Demo\C Sharp Demo\7SCDemo\obj\x86\Debug\7SCDemo.exe
+C:\Users\ilya\Downloads\C Sharp Demo\C Sharp Demo\7SCDemo\obj\x86\Debug\7SCDemo.pdb
+C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\bin\Debug\7SCDemo.exe
+C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\bin\Debug\7SCDemo.pdb
+C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\7SCDemo.csproj.AssemblyReference.cache
+C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\_7SC34Demo.Form1.resources
+C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\_7SCDemo.Properties.Resources.resources
+C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\7SCDemo.csproj.GenerateResource.cache
+C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\7SCDemo.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\7SCDemo.exe
+C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\7SCDemo.pdb
