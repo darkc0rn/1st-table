@@ -324,8 +324,8 @@ namespace _7SC34Demo
             string HomeZ;
             double zStep;
             zStep = (Convert.ToDouble(textBox4.Text) * 200);
-            if (zStep > 1000)
-                zStep = 1000;
+            if (zStep > 6000)
+                zStep = 6000;
             HomeZ = "+" + zStep.ToString();
 
             button7.Focus();
@@ -412,9 +412,15 @@ namespace _7SC34Demo
             button6_Click(sender, e);
             yStep = ((Convert.ToDouble(textBox10.Text) * 200) - dCurrPosiX) / DblPulseEqui;
             if (yStep > 0)
+            {
                 x = "+" + yStep.ToString();
+                o = "-" + yStep.ToString();
+            }
             else
+            {
                 x = yStep.ToString();
+                o = "+" + Convert.ToString(-1 * yStep);
+            }
 
 
             yStep = Convert.ToDouble(textBox7.Text) *200 / DblPulseEqui;
@@ -424,7 +430,7 @@ namespace _7SC34Demo
                 y = yStep.ToString();
 
             cycles = Convert.ToInt64(Convert.ToDouble(textBox12.Text));
-            o = Convert.ToString(-1 * Convert.ToInt64(x));
+            //o = Convert.ToString(-1 * Convert.ToInt64(x));
 
             for (; cycles > 0; cycles--)
             {

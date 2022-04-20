@@ -31,3 +31,12 @@ C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\7SCDemo.csproj.
 C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\7SCDemo.csproj.CoreCompileInputs.cache
 C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\7SCDemo.exe
 C:\Users\Vladimir P\Desktop\C Sharp Demo 4\7SCDemo\obj\x86\Debug\7SCDemo.pdb
+C:\Users\Vladimir P\Documents\GitHub\1st-table\7SCDemo\bin\Debug\7SCDemo.exe
+C:\Users\Vladimir P\Documents\GitHub\1st-table\7SCDemo\bin\Debug\7SCDemo.pdb
+C:\Users\Vladimir P\Documents\GitHub\1st-table\7SCDemo\obj\x86\Debug\7SCDemo.csproj.AssemblyReference.cache
+C:\Users\Vladimir P\Documents\GitHub\1st-table\7SCDemo\obj\x86\Debug\_7SC34Demo.Form1.resources
+C:\Users\Vladimir P\Documents\GitHub\1st-table\7SCDemo\obj\x86\Debug\_7SCDemo.Properties.Resources.resources
+C:\Users\Vladimir P\Documents\GitHub\1st-table\7SCDemo\obj\x86\Debug\7SCDemo.csproj.GenerateResource.cache
+C:\Users\Vladimir P\Documents\GitHub\1st-table\7SCDemo\obj\x86\Debug\7SCDemo.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir P\Documents\GitHub\1st-table\7SCDemo\obj\x86\Debug\7SCDemo.exe
+C:\Users\Vladimir P\Documents\GitHub\1st-table\7SCDemo\obj\x86\Debug\7SCDemo.pdb
