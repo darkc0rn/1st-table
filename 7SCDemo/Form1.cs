@@ -324,8 +324,8 @@ namespace _7SC34Demo
             string HomeZ;
             double zStep;
             zStep = (Convert.ToDouble(textBox4.Text) * 200);
-            if (zStep > 300)
-                zStep = 300;
+            if (zStep > 1000)
+                zStep = 1000;
             HomeZ = "+" + zStep.ToString();
 
             button7.Focus();
