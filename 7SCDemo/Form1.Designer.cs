@@ -64,6 +64,8 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -169,7 +171,7 @@
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(81, 22);
             this.textBox8.TabIndex = 19;
-            this.textBox8.Text = "3";
+            this.textBox8.Text = "56";
             // 
             // button4
             // 
@@ -199,6 +201,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.textBox5);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.textBox3);
             this.groupBox2.Controls.Add(this.label10);
@@ -230,7 +233,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(81, 22);
             this.textBox3.TabIndex = 24;
-            this.textBox3.Text = "3";
+            this.textBox3.Text = "56";
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // button6
@@ -287,6 +290,7 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.textBox6);
             this.groupBox5.Controls.Add(this.label12);
             this.groupBox5.Controls.Add(this.textBox9);
             this.groupBox5.Controls.Add(this.button6);
@@ -431,7 +435,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(95, 22);
             this.textBox4.TabIndex = 30;
-            this.textBox4.Text = "30";
+            this.textBox4.Text = "28";
             // 
             // label5
             // 
@@ -442,6 +446,23 @@
             this.label5.Size = new System.Drawing.Size(58, 17);
             this.label5.TabIndex = 31;
             this.label5.Text = "Home Z";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(270, 9);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(81, 22);
+            this.textBox5.TabIndex = 26;
+            this.textBox5.Text = "28";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(259, 9);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(81, 22);
+            this.textBox6.TabIndex = 26;
             // 
             // Form1
             // 
@@ -514,6 +535,8 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }
 

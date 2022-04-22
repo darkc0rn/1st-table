@@ -20,6 +20,7 @@ namespace _7SC34Demo
         long lCurrStep;                                         //Current steps
         double dCurrPosiX;                                      //Current position X
         double dCurrPosiY;                                      //Current position Y
+        double dCurrPosiZ;                                      //Current position Z
 
         public Form1()
         {
@@ -264,6 +265,25 @@ namespace _7SC34Demo
             BlnBusy = false;
             timer1.Enabled = false;
             button6_Click(sender, e);
+
+            button7.Focus();
+            button6_Click(sender, e);
+            lStep = Convert.ToInt64(((Convert.ToDouble(textBox5.Text) * 200) - dCurrPosiZ) / DblPulseEqui);
+            if (lStep > 0)
+                s = "+" + lStep.ToString();
+            else
+                s = lStep.ToString();
+            StrReceiver = "";
+            BlnBusy = true;
+            BlnSet = true;
+            SendCommand("Z" + s + "\r");   //Move X axis to the appointed position.
+
+            textBox11.Text = "...... ";
+            timer1.Interval = 310 - Convert.ToInt32(sSpeed);
+            timer1.Enabled = true;
+            Delay(100000000);
+            BlnBusy = false;
+            timer1.Enabled = false;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -289,7 +309,7 @@ namespace _7SC34Demo
 
             if (StrReceiver != "")
             {
-                if (StrReceiver.Substring(5, 1) == "-")
+                if (StrReceiver.Substring(5, 1) == "-")  
                     lCurrStep = -Convert.ToInt64(System.Text.RegularExpressions.Regex.Replace(StrReceiver, @"[^0-9]+", ""));
                 else
                     lCurrStep = Convert.ToInt64(System.Text.RegularExpressions.Regex.Replace(StrReceiver, @"[^0-9]+", ""));
@@ -317,6 +337,25 @@ namespace _7SC34Demo
                 return;
             dCurrPosiY = lCurrStep * DblPulseEqui;
             textBox9.Text = Convert.ToString(dCurrPosiY / 200);
+
+            StrReceiver = "";
+            BlnBusy = true;
+            BlnSet = false;
+            SendCommand("?Z\r");            //Inquiry the current position of Z axis
+            Delay(100000);
+            BlnBusy = false;
+
+            if (StrReceiver != "")
+            {
+                if (StrReceiver.Substring(5, 1) == "-")
+                    lCurrStep = -Convert.ToInt64(System.Text.RegularExpressions.Regex.Replace(StrReceiver, @"[^0-9]+", ""));
+                else
+                    lCurrStep = Convert.ToInt64(System.Text.RegularExpressions.Regex.Replace(StrReceiver, @"[^0-9]+", ""));
+            }
+            else
+                return;
+            dCurrPosiZ = lCurrStep * DblPulseEqui;
+            textBox6.Text = Convert.ToString(dCurrPosiZ / 200);
         }
 
         private void button5_Click(object sender, EventArgs e)      //Return to origin
