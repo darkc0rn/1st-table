@@ -229,7 +229,15 @@ namespace _7SC34Demo
             string s;
             button7.Focus();
             button6_Click(sender, e);
-            lStep = Convert.ToInt64(((Convert.ToDouble(textBox8.Text) * 200) - dCurrPosiX) / DblPulseEqui);
+            if (checkBox1.Checked == false)
+            {
+                lStep = Convert.ToInt64(((Convert.ToDouble(textBox8.Text) * 200) - dCurrPosiX) / DblPulseEqui);
+            }
+            else
+            {
+                lStep = Convert.ToInt64(Convert.ToDouble(textBox8.Text) * 200);
+                textBox8.Text = "0";
+            }
             if (lStep > 0)
                 s = "+" + lStep.ToString();
             else
@@ -248,7 +256,15 @@ namespace _7SC34Demo
 
             button7.Focus();
             button6_Click(sender, e);
-            lStep = Convert.ToInt64(((Convert.ToDouble(textBox3.Text) * 200) - dCurrPosiY) / DblPulseEqui);
+            if (checkBox1.Checked == false)
+            {
+                lStep = Convert.ToInt64(((Convert.ToDouble(textBox3.Text) * 200) - dCurrPosiY) / DblPulseEqui);
+            }
+            else
+            {
+                lStep = Convert.ToInt64(Convert.ToDouble(textBox3.Text) * 200);
+                textBox3.Text = "0";
+            }
             if (lStep > 0)
                 s = "+" + lStep.ToString();
             else
@@ -268,7 +284,15 @@ namespace _7SC34Demo
 
             button7.Focus();
             button6_Click(sender, e);
-            lStep = Convert.ToInt64(((Convert.ToDouble(textBox5.Text) * 200) - dCurrPosiZ) / DblPulseEqui);
+            if (checkBox1.Checked == false)
+            {
+                lStep = Convert.ToInt64(((Convert.ToDouble(textBox5.Text) * 200) - dCurrPosiZ) / DblPulseEqui);
+            }
+            else
+            {
+                lStep = Convert.ToInt64(Convert.ToDouble(textBox5.Text) * 200);
+                textBox5.Text = "0";
+            }
             if (lStep > 0)
                 s = "+" + lStep.ToString();
             else
@@ -358,14 +382,22 @@ namespace _7SC34Demo
             textBox6.Text = Convert.ToString(dCurrPosiZ / 200);
         }
 
-        private void button5_Click(object sender, EventArgs e)      //Return to origin
+        private void button3_Click(object sender, EventArgs e)      //Return to origin
         {
+            string HomeX;
+            string HomeY;
             string HomeZ;
             double zStep;
-            zStep = (Convert.ToDouble(textBox4.Text) * 200);
+            zStep = (Convert.ToDouble(textBox13.Text) * 200);
             if (zStep > 6000)
                 zStep = 6000;
             HomeZ = "+" + zStep.ToString();
+
+            zStep = (Convert.ToDouble(textBox15.Text) * 200);
+            HomeX = "+" + zStep.ToString();
+
+            zStep = (Convert.ToDouble(textBox14.Text) * 200);
+            HomeY = "+" + zStep.ToString();
 
             button7.Focus();
             StrReceiver = "";
@@ -414,6 +446,34 @@ namespace _7SC34Demo
             BlnBusy = true;
             BlnSet = true;
             SendCommand("Z"+ HomeZ +"\r");   //Home Z axis
+
+            textBox9.Text = "...... ";
+            timer1.Interval = 310 - Convert.ToInt32(sSpeed);
+            timer1.Enabled = true;
+            Delay(1000000);
+            timer1.Enabled = false;
+            BlnBusy = false;
+            button6_Click(sender, e);
+
+            button7.Focus();
+            StrReceiver = "";
+            BlnBusy = true;
+            BlnSet = true;
+            SendCommand("Z" + HomeX + "\r");   //Home X axis
+
+            textBox9.Text = "...... ";
+            timer1.Interval = 310 - Convert.ToInt32(sSpeed);
+            timer1.Enabled = true;
+            Delay(1000000);
+            timer1.Enabled = false;
+            BlnBusy = false;
+            button6_Click(sender, e);
+
+            button7.Focus();
+            StrReceiver = "";
+            BlnBusy = true;
+            BlnSet = true;
+            SendCommand("Z" + HomeY + "\r");   //Home Y axis
 
             textBox9.Text = "...... ";
             timer1.Interval = 310 - Convert.ToInt32(sSpeed);
@@ -540,6 +600,11 @@ namespace _7SC34Demo
         }
 
         private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
         {
 
         }
