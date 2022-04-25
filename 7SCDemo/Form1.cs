@@ -459,7 +459,7 @@ namespace _7SC34Demo
             StrReceiver = "";
             BlnBusy = true;
             BlnSet = true;
-            SendCommand("Z" + HomeX + "\r");   //Home X axis
+            SendCommand("X" + HomeX + "\r");   //Home X axis
 
             textBox9.Text = "...... ";
             timer1.Interval = 310 - Convert.ToInt32(sSpeed);
@@ -473,7 +473,7 @@ namespace _7SC34Demo
             StrReceiver = "";
             BlnBusy = true;
             BlnSet = true;
-            SendCommand("Z" + HomeY + "\r");   //Home Y axis
+            SendCommand("Y" + HomeY + "\r");   //Home Y axis
 
             textBox9.Text = "...... ";
             timer1.Interval = 310 - Convert.ToInt32(sSpeed);
@@ -589,24 +589,11 @@ namespace _7SC34Demo
             button6_Click(sender, e);
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
+            textBox5.Text = "0";
+            textBox3.Text = "0";
+            textBox8.Text = "0";
         }
     }
 }
