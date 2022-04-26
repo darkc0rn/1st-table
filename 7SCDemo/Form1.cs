@@ -293,6 +293,12 @@ namespace _7SC34Demo
                 lStep = Convert.ToInt64(Convert.ToDouble(textBox5.Text) * 200);
                 textBox5.Text = "0";
             }
+
+            if (lStep + dCurrPosiZ > 6000)
+            {
+                lStep = Convert.ToInt64(6000 - dCurrPosiZ);
+            }
+
             if (lStep > 0)
                 s = "+" + lStep.ToString();
             else
