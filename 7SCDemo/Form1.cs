@@ -396,7 +396,13 @@ namespace _7SC34Demo
             double zStep;
             zStep = (Convert.ToDouble(textBox13.Text) * 200);
             if (zStep > 6000)
+            {
                 zStep = 6000;
+            }
+            else if (zStep < 2700)
+            {
+                zStep = 2700;
+            }
             HomeZ = "+" + zStep.ToString();
 
             zStep = (Convert.ToDouble(textBox15.Text) * 200);
