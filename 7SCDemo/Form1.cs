@@ -519,6 +519,7 @@ namespace _7SC34Demo
             string o;
             string y;
             long cycles;
+            long startCycles;
             button7.Focus();
             button6_Click(sender, e);
             yStep = ((Convert.ToDouble(textBox10.Text) * 200) - dCurrPosiX) / DblPulseEqui;
@@ -541,6 +542,7 @@ namespace _7SC34Demo
                 y = yStep.ToString();
 
             cycles = Convert.ToInt64(Convert.ToDouble(textBox12.Text));
+            startCycles = cycles;
             //o = Convert.ToString(-1 * Convert.ToInt64(x));
 
             for (; cycles > 0; cycles--)
@@ -597,8 +599,10 @@ namespace _7SC34Demo
                 BlnBusy = false;
                 timer1.Enabled = false;
                 //button6_Click(sender, e);
+                textBox4.Text = Convert.ToString(startCycles - cycles + 1);
             }
             button6_Click(sender, e);
+            textBox4.Text = "0";
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
