@@ -294,9 +294,9 @@ namespace _7SC34Demo
                 textBox5.Text = "0";
             }
 
-            if (lStep + dCurrPosiZ > 6000)
+            if (lStep + dCurrPosiZ > 6600)
             {
-                lStep = Convert.ToInt64(6000 - dCurrPosiZ);
+                lStep = Convert.ToInt64(6600 - dCurrPosiZ);
             }
 
             if (lStep > 0)
@@ -545,6 +545,8 @@ namespace _7SC34Demo
             startCycles = cycles;
             //o = Convert.ToString(-1 * Convert.ToInt64(x));
 
+            textBox4.Text = "0";
+
             for (; cycles > 0; cycles--)
             {
 
@@ -602,7 +604,6 @@ namespace _7SC34Demo
                 textBox4.Text = Convert.ToString(startCycles - cycles + 1);
             }
             button6_Click(sender, e);
-            textBox4.Text = "0";
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
